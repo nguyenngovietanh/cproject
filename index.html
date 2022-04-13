@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, intinial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/e8079f8f5d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+</head>
+
+<body>
+    <!-- About -->
+    <div id="about">
+        <div class="about-me">
+            <h2 class="big-word">Shop info</h2>
+            <h2 class="small-word">Shop info</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <div class="big-main-content">
+            <div class="main-content">
+                <h3>Viet Anh Nguyen</h3>
+                <h2>Front-end developer</h2>
+                <p>I'm a Front-end Developer from Hanoi, Vietnam. I am on my way to becoming a professional theme
+                    developer. I love building interfaces for web applications. If you are a business seeking a web
+                    presence or an employer looking to hire, you can get in touch with me here </p>
+                <button><a href="https://www.facebook.com/thanhthao93" target="_blank"></i> &nbsp; Gặp ngay chủ
+                        shop</a></button>
+            </div>
+            <div class="avatar">
+                <img class="avatar-image" src="./assets/images/shop-info.jpg" onclick="profile()">
+            </div>
+        </div>
+    </div>
+    <!-- Profolio -->
+    <div id="profolio">
+        <div class="my-profolio">
+            <h2 class="big-word">Price Quote</h2>
+            <h2 class="small-word">Price Quote</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+        <div class="gallery">
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img1.jpg" onclick="bookmark()">
+                    <div class="overlay">
+                        <h2>Bookmark</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img2.jpg" onclick="khauTrang()">
+                    <div class="overlay">
+                        <h2>Khẩu trang</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img3.jpg" onclick="noCotToc()">
+                    <div class="overlay">
+                        <h2>Nơ cột tóc</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img4.jpg" onclick="kepToc()">
+                    <div class="overlay">
+                        <h2>Kẹp tóc</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img5.jpg" onclick="mocKhoa()">
+                    <div class="overlay">
+                        <h2>Móc khóa</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img6.jpg" onclick="cotToc()">
+                    <div class="overlay">
+                        <h2>Cột tóc</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img7.jpg" onclick="khan()">
+                    <div class="overlay">
+                        <h2>Khăn</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+            <div class="image">
+                <span>
+                    <img src="./assets/images/img8.jpg" onclick="tuiRut()">
+                    <div class="overlay">
+                        <h2>Túi rút thêu</h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function profile() {
+        window.location = "https://www.facebook.com/tiemnhanang93";
+    }
+
+    function bookmark() {
+        swal({
+            title: "39k/c!",
+        });
+    }
+
+    function khauTrang() {
+        swal({
+            title: "40k/c!",
+        });
+    }
+
+    function noCotToc() {
+        swal({
+            title: "39k/c!",
+        });
+    }
+
+    function kepToc() {
+        swal({
+            title: "25k/c!",
+        });
+    }
+
+    function mocKhoa() {
+        swal({
+            title: "40k/c!",
+        });
+    }
+
+    function cotToc() {
+        swal({
+            title: "39k/c!",
+        });
+    }
+
+    function khan() {
+        swal({
+            title: "Chưa báo giá",
+        });
+    }
+
+    function tuiRut() {
+        swal({
+            title: "Chưa báo giá",
+        });
+    }
+
+</script>
+
+</html>
